@@ -18,7 +18,7 @@ modrinth-wrapper = { path = "../modrinth-wrapper" }
 或当发布到 crates.io 后使用：
 
 ```toml
-modrinth-wrapper = "0.1"
+modrinth-wrapper = "0.1.0"
 ```
 
 ## 快速开始
@@ -77,7 +77,3 @@ cargo test
 - 增加更多测试用例或文档补全
 
 请在 PR 中保持改动最小且附上测试或复现步骤。
-
----
-
-如果你想让我把 README 调整为更简洁或更详细的风格（例如增加完整 API 文档或示例），告诉我你偏好的结构与内容，我会继续完善。
