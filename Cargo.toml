@@ -5,6 +5,8 @@ edition = "2024"
 exclude = [
     "modrinth-docs"
 ]
+description = "A Rust wrapper for the Modrinth API."
+license = "MIT"
 [dependencies]
 reqwest = { version = "0.13.2", features = ["json"] }
 serde = { version = "1.0.228", features = ["derive"] }
